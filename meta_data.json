@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "customer support",
+        "2": "internationalization"
+    },
+    "description": "Notifies users when their device goes offline using the offline.js library.\n\nSupport for a variety of languages using the default offline.js library options (may be limited in older browsers).\n\nhttps://github.hubspot.com/offline/docs/welcome/",
+    "image": "//s3.amazonaws.com/appforest_uf/f1583265633894x921177265136030000/offline-first-logo.png",
+    "license": "open_source",
+    "name": "Offline Notify",
+    "plugin_instructions": "Place the element on a page or in a reusable element where you'd like to notify users when the app goes offline.\n"
+}

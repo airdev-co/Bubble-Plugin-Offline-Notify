@@ -1,0 +1,75 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 35,
+        "width": 35
+    },
+    "display": "Offline Notifier",
+    "fields": {
+        "AAE": {
+            "caption": "Up Background Color",
+            "default_val": "",
+            "doc": "OPTIONAL. Sets the background color of the connected alert box (when reconnecting is successful). This can be a color (#4183D7) or more complex CSS rules. When using a color's hex code, include the # sign before the hex code.",
+            "editor": "DynamicValue",
+            "name": "connected_background_color",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "Up Font Color",
+            "default_val": "#FFFFFF",
+            "doc": "Assigns the font-color CSS property. Include a hash (#) before the color's hex code.",
+            "editor": "DynamicValue",
+            "name": "connected_font_color",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "Down Background Color",
+            "default_val": "",
+            "doc": "OPTIONAL. Sets the background color of the down alert box (right when the internet is disconnected). This can be a color (#4183D7) or more complex CSS rules. When using a color's hex code, include the # sign before the hex code.",
+            "editor": "DynamicValue",
+            "name": "down_background_color",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Down Font Color",
+            "default_val": "#FFFFFF",
+            "doc": "Assigns the font-color CSS property. Include a hash (#) before the color's hex code.",
+            "editor": "DynamicValue",
+            "name": "down_font_color",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAI": {
+            "caption": "Connecting Background Color",
+            "default_val": "",
+            "doc": "OPTIONAL. Sets the background color of the connecting alert box (when trying to reconnect). This can be a color (#4183D7) or more complex CSS rules. When using a color's hex code, include the # sign before the hex code.",
+            "editor": "DynamicValue",
+            "name": "connecting_background_color",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "Connecting Font Color",
+            "default_val": "#FFFFFF",
+            "doc": "Assigns the font-color CSS property. Include a hash (#) before the color's hex code.",
+            "editor": "DynamicValue",
+            "name": "connecting_font_color",
+            "rank": 5,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "language",
+            "default_val": "english",
+            "doc": "Select the language you would like the message to be displayed in.",
+            "editor": "Dropdown",
+            "name": "language",
+            "options": "english,arabic,chinese-simplified,chinese-traditional,czech,dutch,french,german,hebrew,italian,pashto,polish,portuguese-brazil,spanish,turkish",
+            "rank": 6
+        }
+    },
+    "icon": "ion-android-checkbox-blank"
+}
